@@ -1,0 +1,26 @@
+.scores {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.scores h2 {
+    font-size: 1em;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+table {
+    width: 100%; /* Ajusta a largura da tabela */
+    max-width: 800px;
+    margin: 0 auto; /* Centraliza a tabela */
+    border-collapse: collapse;
+    color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}

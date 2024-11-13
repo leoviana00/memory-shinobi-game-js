@@ -1,2 +1,5 @@
-# memory-shinobi-game-js
-Jogo da memória com Javascript
+## Estudando Javascript 
+
+## Projeto
+
+Jogo da memória para praticar lógica de progrmação e estudo da linguagem Javascript.

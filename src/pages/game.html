@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="shortcut icon" href="/src/assets/images/kunai.png" type="image/x-icon">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="/src/styles/reset.css">
+    <link rel="stylesheet" href="/src/styles/game.css">
+
+</head>
+<body>
+    <audio id="bgm" loop>
+        <source src="/src/assets/audio/naruto.mp3" type="audio/mp3"/>
+    </audio>
+
+    <main>
+
+        <div class="bg-video" >
+            <video class="video" autoplay loop muted>
+                <source src="/src/assets/video/naruto.mp4" type="video/mp4">
+            </video>
+        </div>
+        <header>
+            <span class="player"></span>
+            <span>Tempo: <span class="timer">00</span></span>
+        </header>
+        <div class="grid"></div>
+        <button class="reset" onclick="window.location.reload()"> RESET GAME </button>
+       
+    </main>
+
+    <script src="/src/js/engine.js" defer></script>
+</body>
+</html>

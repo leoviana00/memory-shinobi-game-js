@@ -97,8 +97,10 @@ const revelCard = ({target}) => {
 
     } 
 
-    const bgm = document.getElementById("bgm");
-    bgm.play(); 
+    // Desabilitando o audio
+
+    // const bgm = document.getElementById("bgm");
+    // bgm.play(); 
     
 }
 

@@ -2,7 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     width: 100%;
-    /* background-image: url(/src/assets/images/bg.jpg); */
+    /* background-image: url(./src/assets/images/bg.jpg); */
     background-size: cover;
     min-height: 100vh;
     align-items: center;
@@ -89,12 +89,12 @@ header {
 }
 
 .card__front{
-    /* background-image: url(/src/assets/images/kakashi.gif); */
+    /* background-image: url(./src/assets/images/kakashi.gif); */
     transform: rotateY(180deg)
 }
 
 .card__back {
-    background-image: url(/src/assets/images/kurama.png);
+    background-image: url(./src/assets/images/kurama.png);
     backface-visibility: hidden;
 }
 

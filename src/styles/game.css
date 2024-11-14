@@ -94,7 +94,7 @@ header {
 }
 
 .card__back {
-    background-image: url(./src/assets/images/kurama.png);
+    background-image: url(../assets/images/kurama.png);
     backface-visibility: hidden;
 }
 

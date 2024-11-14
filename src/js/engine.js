@@ -18,7 +18,7 @@ const figures = [
 ]
 
 const playSounds = (audioName) => {
-    let audio = new Audio(`/src/assets/audio/${audioName}.m4a`);
+    let audio = new Audio(`./src/assets/audio/${audioName}.m4a`);
     audio.volume = 0.8;
     audio.play();
 }
